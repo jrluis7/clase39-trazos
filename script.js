@@ -17,3 +17,9 @@
 // - Commit: Es una foto, o un punto de guardado con los cambios propuestos
 
 console.log( 'Cargando el script' )
+
+$( '#btnPopUp' ).on( {
+    click:function(){
+        alert('Hola Git!');
+    }
+} )
