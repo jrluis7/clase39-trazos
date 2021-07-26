@@ -23,4 +23,7 @@ $( '#btnPopUp' ).on( {
     click:function(){
         alert('Hola Git!');
     }
-} )
+} );
+
+
+console.log( 'segunda linea de código' );
